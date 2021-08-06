@@ -17,7 +17,7 @@ export default function Home({ filteredCoins }) {
     console.log(e.target.value.toLowerCase());
   };
   return (
-    <div className="bg-gradient-to-r from-primary via-secondary to-danger text-white h-screen w-full">
+    <div className="bg-gradient-to-r from-primary via-secondary to-danger text-white h-full w-full">
       <Head>
         <title>Crypto Tracker API</title>
       </Head>
